@@ -12,15 +12,16 @@
         #banner{
             height: 360px;
             width: 100%;
+            margin-bottom:16px;
         }
     </style>
 </head>
 
 <body>
+    {% include 'nav.html' %}
+    <img class="img-fluid" id="banner" src="http://127.0.0.1:7000/static/teamwork.jpg">
     <div class="container">
         <h1 class="text-center mt-2 mb-4">{{company_name}} Careers</h1>
-        <img class="img-fluid" id="banner" src="http://127.0.0.1:7000/static/banner.jpg">
-        <h2 class="text-center mt-4 mb-4">About Jovian</h2>
         <p class="lead">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -36,9 +37,10 @@
         </div>
         <div class="text-center">
             <button type="button" class="btn btn-primary btn-lg">Contact us</button>
-            <p class="mt-4">Copyright 2023, Jovian</p>
+
         </div>
     </div>
+    {% include 'footer.html' %}
 </body>
 
 </html>
