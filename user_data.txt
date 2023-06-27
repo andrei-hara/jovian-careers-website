@@ -1,0 +1,4 @@
+database: joviancareers
+username: f9m28maq61gaq2xhqkit
+host: aws.connect.psdb.cloud
+password: pscale_pw_6orCQRmn8I5jD1GahKKPM16kFx3rZEeaxgrJI6XA9ob
