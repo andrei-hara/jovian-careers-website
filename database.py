@@ -25,4 +25,6 @@ def load_job_from_db(id):
     else:
         return row[0]._asdict()
 
-print(load_job_from_db(2))
+
+if __name__ == "__main__":
+    print(load_job_from_db(2))
